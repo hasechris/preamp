@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selfmade
+LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -44,16 +45,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1425 725  875  525 
+S 1425 825  675  325 
 U 5882A13F
 F0 "surge" 60
 F1 "surge.sch" 60
 F2 "L_I" I L 1425 900 60 
 F3 "PE_I" O L 1425 975 60 
 F4 "N_I" O L 1425 1050 60 
-F5 "L_O" O R 2300 900 60 
-F6 "PE_O" I R 2300 975 60 
-F7 "N_O" I R 2300 1050 60 
+F5 "L_O" O R 2100 900 60 
+F6 "PE_O" I R 2100 975 60 
+F7 "N_O" I R 2100 1050 60 
 $EndSheet
 $Comp
 L IEC_power X?
