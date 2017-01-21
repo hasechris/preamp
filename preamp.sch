@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -134,4 +134,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 1425 1350 975 
 Connection ~ 1350 975 
+$Sheet
+S 3250 2825 2075 1000
+U 58843538
+F0 "odroid" 60
+F1 "odroid.sch" 60
+$EndSheet
 $EndSCHEMATC
