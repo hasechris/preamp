@@ -31,9 +31,9 @@ LIBS:valves
 LIBS:selfmade
 EELAYER 25 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -43,33 +43,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1425 725  875  525 
-U 5882A13F
-F0 "surge" 60
-F1 "surge.sch" 60
-F2 "L_I" I L 1425 900 60 
-F3 "PE_I" O L 1425 975 60 
-F4 "N_I" O L 1425 1050 60 
-F5 "L_O" O R 2300 900 60 
-F6 "PE_O" I R 2300 975 60 
-F7 "N_O" I R 2300 1050 60 
-$EndSheet
-$Comp
-L IEC_power X?
-U 1 1 5882AB14
-P 675 1075
-F 0 "X?" H 725 1375 60  0000 C CNN
-F 1 "IEC_power" H 900 1025 60  0000 C CNN
-F 2 "" H 675 1075 60  0001 C CNN
-F 3 "" H 675 1075 60  0001 C CNN
-	1    675  1075
-	1    0    0    -1  
-$EndComp
+Text HLabel 1900 2775 0    60   Input ~ 0
+L_I
+Text HLabel 1900 2850 0    60   Output ~ 0
+PE_I
+Text HLabel 1900 2925 0    60   Output ~ 0
+N_I
 Wire Wire Line
-	1125 900  1425 900 
+	1900 2775 7325 2775
 Wire Wire Line
-	1175 975  1425 975 
+	1900 2850 7325 2850
 Wire Wire Line
-	1175 1050 1425 1050
+	1900 2925 7325 2925
+Text HLabel 7325 2775 2    60   Output ~ 0
+L_O
+Text HLabel 7325 2850 2    60   Input ~ 0
+PE_O
+Text HLabel 7325 2925 2    60   Input ~ 0
+N_O
 $EndSCHEMATC
