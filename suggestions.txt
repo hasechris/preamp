@@ -1,0 +1,5 @@
+bluetooth module
+- sparkfun rn52 breakout module
+
+i2s <--> spdif
+wm8805 transciever chip
