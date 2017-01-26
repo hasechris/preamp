@@ -1,8 +1,21 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AVDD
+K POWER, PWR
+$ENDCMP
+#
+$CMP DVDD
+K POWER, PWR
+$ENDCMP
+#
 $CMP OPTO_TRIAC
 D Generic Random Phase Opto-Triac
 K Opto-Triac Opto Triac Random Phase
+$ENDCMP
+#
+$CMP WM8805
+D 8RX 1TX SPDIF I2S Transciever with PLL, TSSOP28
+F http://www.cirrus.com/cn/pubs/proDatasheet/WM8805_v4.5.pdf
 $ENDCMP
 #
 #End Doc Library
