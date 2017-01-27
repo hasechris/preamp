@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2725 4200 2525
 Wire Wire Line
-	3475 2525 4200 2525
+	4200 2525 3475 2525
 Wire Wire Line
 	3475 2400 3475 2625
 Wire Wire Line
@@ -113,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	4125 2800 4125 2600
 Wire Wire Line
-	3800 2600 4125 2600
+	4125 2600 3800 2600
 Wire Wire Line
 	3800 2400 3800 2625
 $Comp

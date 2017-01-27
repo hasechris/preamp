@@ -44,4 +44,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 1175 950  0    60   Output ~ 0
+SCL
+Text HLabel 1175 1025 0    60   BiDi ~ 0
+SDA
 $EndSCHEMATC
