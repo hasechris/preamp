@@ -3,3 +3,21 @@ bluetooth module
 
 i2s <--> spdif
 wm8805 transciever chip
+
+rs232 <--> Ethernet
+https://www.amazon.de/dp/B00R2ID10E?psc=1
+USR-TCP232-302-PCB
+14€
+
+internet RJ45 Switch:
+NETGEAR GS105E-200PES
+32€
+
+ac-dc converter 12V
+TMG 50112
+50W 12V 4,1A Wide Range AC Input 90-260VAC
+
+dc-dc Converter 5V Standby
+Meanwell SKM15A-05
+
+

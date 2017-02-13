@@ -4,13 +4,33 @@ $CMP AVDD
 K POWER, PWR
 $ENDCMP
 #
+$CMP DUAL_LED
+D DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
 $CMP DVDD
 K POWER, PWR
+$ENDCMP
+#
+$CMP Led_x2
+D DOUBLE type Bicolore
+K LED
 $ENDCMP
 #
 $CMP OPTO_TRIAC
 D Generic Random Phase Opto-Triac
 K Opto-Triac Opto Triac Random Phase
+$ENDCMP
+#
+$CMP RAC20-05SA
+D AC-DC 20W Single Converter
+K 20W 5V 4A ACDC Converter
+$ENDCMP
+#
+$CMP RAC20-09SA
+D AC-DC 9V 20W Single Converter
+K 20W 9V 2,2A ACDC Converter
 $ENDCMP
 #
 $CMP WM8805

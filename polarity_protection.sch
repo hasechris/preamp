@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -62,15 +62,9 @@ F 3 "" H 6350 4350 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4625 3750 4975 3750
+	4625 3750 6875 3750
 Wire Wire Line
-	4975 3750 6875 3750
-Wire Wire Line
-	4625 3825 4825 3825
-Wire Wire Line
-	4825 3825 5700 3825
-Wire Wire Line
-	5700 3825 6325 3825
+	4625 3825 6325 3825
 $Comp
 L OPTO-TRIAC U?
 U 1 1 58837B41
@@ -119,11 +113,9 @@ Connection ~ 4975 3750
 Wire Wire Line
 	6325 3825 6325 3950
 Wire Wire Line
-	6225 3950 6225 3675
+	6225 3675 6225 3950
 Wire Wire Line
-	6225 3675 6100 3675
-Wire Wire Line
-	6100 3675 4625 3675
+	4625 3675 6225 3675
 Wire Wire Line
 	6100 3950 6100 3675
 Connection ~ 6100 3675
