@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selfmade
+LIBS:teensy
 LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END

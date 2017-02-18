@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selfmade
+LIBS:teensy
 LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END
@@ -280,7 +281,7 @@ $EndComp
 Wire Wire Line
 	4000 4625 4000 4550
 Wire Wire Line
-	2675 4550 4500 4550
+	4000 4550 2675 4550
 Wire Wire Line
 	2675 4550 2675 2450
 Wire Wire Line
@@ -335,91 +336,31 @@ Wire Wire Line
 Wire Wire Line
 	4000 6025 4000 6250
 Wire Wire Line
-	4000 6250 6050 6250
+	4000 6250 5450 6250
 Wire Wire Line
-	6050 6250 6050 4425
+	5450 6250 5450 4425
 Wire Wire Line
-	6050 4425 4775 4425
+	5450 4425 4775 4425
 Wire Wire Line
 	4775 4425 4775 4250
 Connection ~ 4775 4250
 Text HLabel 4750 4925 2    60   Input ~ 0
-SCL
+SCL_RELAIS
 Text HLabel 4750 5025 2    60   BiDi ~ 0
-SDA
+SDA_RELAIS
 Wire Wire Line
 	4750 4925 4500 4925
 Wire Wire Line
 	4500 5025 4750 5025
-$Comp
-L dip S?
-U 1 1 588BD9E4
-P 5100 5625
-F 0 "S?" H 5150 6025 60  0000 C CNN
-F 1 "dip" H 5350 6025 60  0000 C CNN
-F 2 "" H 5100 5625 60  0001 C CNN
-F 3 "" H 5100 5625 60  0001 C CNN
-	1    5100 5625
-	0    1    1    0   
-$EndComp
-$Comp
-L dip S?
-U 1 1 588BDA67
-P 5100 4750
-F 0 "S?" H 5150 5150 60  0000 C CNN
-F 1 "dip" H 5350 5150 60  0000 C CNN
-F 2 "" H 5100 4750 60  0001 C CNN
-F 3 "" H 5100 4750 60  0001 C CNN
-	1    5100 4750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	5150 6025 5150 6250
-Connection ~ 5150 6250
+	4500 5225 5450 5225
+Connection ~ 5450 5225
 Wire Wire Line
-	5225 6025 5225 6250
-Connection ~ 5225 6250
+	4500 5325 4650 5325
 Wire Wire Line
-	5300 6025 5300 6250
-Connection ~ 5300 6250
+	4650 5225 4650 5425
+Connection ~ 4650 5225
 Wire Wire Line
-	5375 6025 5375 6250
-Connection ~ 5375 6250
-Wire Wire Line
-	4500 5225 5150 5225
-Wire Wire Line
-	5150 5150 5150 5525
-Wire Wire Line
-	4500 5325 5225 5325
-Wire Wire Line
-	5225 5150 5225 5525
-Wire Wire Line
-	4500 5425 5300 5425
-Wire Wire Line
-	5300 5150 5300 5525
-Connection ~ 5150 5225
-Connection ~ 5225 5325
-Connection ~ 5300 5425
-$Comp
-L R 47k
-U 1 1 588BE1C4
-P 4650 4550
-F 0 "47k" V 4730 4550 50  0000 C CNN
-F 1 "R" V 4650 4550 50  0000 C CNN
-F 2 "" V 4580 4550 50  0000 C CNN
-F 3 "" H 4650 4550 50  0000 C CNN
-	1    4650 4550
-	0    1    1    0   
-$EndComp
-Connection ~ 4000 4550
-Wire Wire Line
-	4800 4550 5300 4550
-Wire Wire Line
-	5150 4550 5150 4650
-Wire Wire Line
-	5225 4550 5225 4650
-Connection ~ 5150 4550
-Wire Wire Line
-	5300 4550 5300 4650
-Connection ~ 5225 4550
+	4650 5425 4500 5425
+Connection ~ 4650 5325
 $EndSCHEMATC

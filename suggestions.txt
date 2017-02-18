@@ -20,4 +20,24 @@ TMG 50112
 dc-dc Converter 5V Standby
 Meanwell SKM15A-05
 
+TCA9548A I2C Expander
 
+Stromsensor
+ACS758xCB
+Hall Effect Vout
+
+
+
+
+I2C Liste 7bit Adressen
+	Allgemein
+		1110 000	0x70	I2C universe switch
+		
+
+
+	DigSply
+		1001 000	0x48	ADC Current sensor
+		1010 000	0x50	Digital Potentiometer
+		
+	
+	
