@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -328,18 +328,12 @@ Text HLabel 1675 6000 0    60   Input ~ 0
 SDA_DIGSPLY
 Text HLabel 1675 6075 0    60   Input ~ 0
 SCL_DIGSPLY
-Text HLabel 1675 6825 0    60   Input ~ 0
-5V_STDBY_GND
 Text HLabel 1675 6750 0    60   Output ~ 0
 5V_STDBY
 Text HLabel 1675 6550 0    60   Output ~ 0
 12V
-Text HLabel 1675 6475 0    60   Input ~ 0
-12V_GND
 Text HLabel 1650 7025 0    60   Output ~ 0
 5V_MAIN
-Text HLabel 1650 7100 0    60   Input ~ 0
-5V_MAIN_GND
 Wire Wire Line
 	2150 5800 3500 5800
 Wire Wire Line
@@ -433,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 1100 6250 2375
 Wire Wire Line
-	6900 2375 6900 1100
+	6900 1100 6900 2375
 Wire Wire Line
 	4200 5625 4550 5625
 Wire Wire Line
@@ -598,9 +592,9 @@ Wire Wire Line
 	5250 3425 5250 3700
 Connection ~ 5250 3700
 Wire Wire Line
-	2925 4975 2825 4975
+	2825 4975 2925 4975
 Wire Wire Line
-	2825 4975 2825 4675
+	2825 4075 2825 4975
 Wire Wire Line
 	1675 6275 2025 6275
 Wire Wire Line
@@ -663,7 +657,7 @@ Wire Wire Line
 	5525 5750 7350 5750
 Connection ~ 7350 5575
 Wire Wire Line
-	1675 6825 2625 6825
+	1775 6825 2625 6825
 Wire Wire Line
 	2625 6825 2625 6425
 Wire Wire Line
@@ -691,7 +685,7 @@ Wire Wire Line
 	8400 1200 6900 1200
 Connection ~ 6900 1200
 Wire Wire Line
-	1650 7100 2825 7100
+	1775 7100 2825 7100
 Wire Wire Line
 	2825 7100 2825 6625
 Wire Wire Line
@@ -707,4 +701,21 @@ Wire Wire Line
 Wire Wire Line
 	7050 2050 7050 2175
 Connection ~ 7050 2175
+Wire Wire Line
+	2925 4600 2875 4600
+Wire Wire Line
+	2875 4600 2875 4175
+Connection ~ 2875 4175
+Connection ~ 2825 4075
+Connection ~ 2825 4675
+Text HLabel 1675 6475 0    60   Input ~ 0
+GND
+Wire Wire Line
+	1775 6475 1775 7100
+Connection ~ 1775 6475
+Connection ~ 1775 6825
+Text Notes 1675 6875 2    60   ~ 0
+STDBY_GND
+Text Notes 1675 7150 2    60   ~ 0
+MAIN_GND
 $EndSCHEMATC

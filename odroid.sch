@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 8
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -45,9 +45,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 12575 3475 2    60   Output ~ 0
+Text HLabel 10850 3325 2    60   Output ~ 0
 SCL1
-Text HLabel 12575 3400 2    60   BiDi ~ 0
+Text HLabel 10850 3250 2    60   BiDi ~ 0
 SDA1
 $Comp
 L Odroid U?
@@ -60,9 +60,9 @@ F 3 "" H 8175 1700 60  0001 C CNN
 	1    9025 2775
 	1    0    0    -1  
 $EndComp
-Text HLabel 12425 3300 2    60   Output ~ 0
+Text HLabel 10325 3525 2    60   Output ~ 0
 SCL2
-Text HLabel 12425 3225 2    60   BiDi ~ 0
+Text HLabel 10325 3450 2    60   BiDi ~ 0
 SDA2
 Text HLabel 5900 2200 0    60   Input ~ 0
 VCC
@@ -79,10 +79,6 @@ F 3 "" H 7800 2900 50  0000 C CNN
 	1    7800 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 3250 10400 3250
-Wire Wire Line
-	10100 3325 10475 3325
 Wire Wire Line
 	5900 2200 8075 2200
 Wire Wire Line
@@ -116,60 +112,14 @@ Wire Wire Line
 Connection ~ 8000 3300
 Wire Wire Line
 	8075 1575 8000 1575
-$Comp
-L TCA9548A U?
-U 1 1 58AE3E91
-P 11575 2750
-F 0 "U?" H 11575 2850 60  0000 C CNN
-F 1 "TCA9548A" H 11550 2775 60  0000 C CNN
-F 2 "" H 11525 2625 60  0001 C CNN
-F 3 "" H 11525 2625 60  0001 C CNN
-	1    11575 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	7550 2200 7550 1150
+	10100 3250 10850 3250
 Wire Wire Line
-	7550 1150 10625 1150
+	10100 3325 10850 3325
 Wire Wire Line
-	10625 1150 10625 2175
+	10100 3450 10325 3450
 Wire Wire Line
-	10625 2175 10875 2175
-Connection ~ 7550 2200
-Wire Wire Line
-	10875 2250 10550 2250
-Wire Wire Line
-	10550 1225 10550 2550
-Wire Wire Line
-	10550 1225 7650 1225
-Wire Wire Line
-	7650 1225 7650 2275
-Connection ~ 7650 2275
-Wire Wire Line
-	10400 3250 10400 2675
-Wire Wire Line
-	10400 2675 10875 2675
-Wire Wire Line
-	10475 3325 10475 2750
-Wire Wire Line
-	10475 2750 10875 2750
-Wire Wire Line
-	10550 2400 10875 2400
-Connection ~ 10550 2250
-Wire Wire Line
-	10550 2475 10875 2475
-Connection ~ 10550 2400
-Wire Wire Line
-	10550 2550 10875 2550
-Connection ~ 10550 2475
-Wire Wire Line
-	12575 3400 12300 3400
-Wire Wire Line
-	12300 3475 12575 3475
-Wire Wire Line
-	12425 3225 12300 3225
-Wire Wire Line
-	12425 3300 12300 3300
+	10100 3525 10325 3525
 $Comp
 L Teensy3.5 U?
 U 1 1 58A84770
@@ -182,25 +132,8 @@ F 3 "" H 3950 6025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6375 7225 4950 7225
-Wire Wire Line
-	6375 2200 6375 7225
+	6375 2200 6375 3450
 Connection ~ 6375 2200
-Wire Wire Line
-	4950 6325 6275 6325
-Wire Wire Line
-	6275 6325 6275 2275
-Connection ~ 6275 2275
-Wire Wire Line
-	12400 3400 12400 4825
-Wire Wire Line
-	12400 4825 4950 4825
-Connection ~ 12400 3400
-Wire Wire Line
-	4950 4925 12475 4925
-Wire Wire Line
-	12475 4925 12475 3475
-Connection ~ 12475 3475
 Wire Wire Line
 	10100 2975 10250 2975
 Wire Wire Line
@@ -225,5 +158,58 @@ Wire Wire Line
 	6575 3550 6575 3450
 Wire Wire Line
 	6575 3450 6375 3450
-Connection ~ 6375 3450
+Entry Wire Line
+	10800 3425 10900 3525
+Entry Wire Line
+	10800 3500 10900 3600
+Wire Wire Line
+	10800 3425 10800 3250
+Connection ~ 10800 3250
+Wire Wire Line
+	10800 3500 10750 3500
+Wire Wire Line
+	10750 3500 10750 3325
+Connection ~ 10750 3325
+Wire Bus Line
+	10900 3525 10900 4825
+Wire Bus Line
+	10900 4825 5275 4825
+Wire Bus Line
+	5275 4825 5275 5025
+Entry Wire Line
+	5175 4825 5275 4925
+Entry Wire Line
+	5175 4925 5275 5025
+Wire Wire Line
+	5175 4925 4950 4925
+Wire Wire Line
+	4950 4825 5175 4825
+Text HLabel 7700 1650 0    60   Input ~ 0
+I2S_DIN
+Text HLabel 7700 1800 0    60   Input ~ 0
+I2S_MCLK
+Text HLabel 7700 1875 0    60   Input ~ 0
+I2S_LRCLK
+Text HLabel 7700 1950 0    60   Input ~ 0
+I2S_SCLK
+Text HLabel 7700 2025 0    60   Input ~ 0
+I2S_DOUT
+Wire Wire Line
+	7700 1650 8075 1650
+Wire Wire Line
+	8075 1800 7700 1800
+Wire Wire Line
+	7700 1875 8075 1875
+Wire Wire Line
+	7700 1950 8075 1950
+Wire Wire Line
+	7700 2025 8075 2025
+Text HLabel 5250 7225 2    60   Input ~ 0
+5V_STDBY
+Text HLabel 5250 6425 2    60   Output ~ 0
+5V_STDBY_GND
+Wire Wire Line
+	5250 6425 4950 6425
+Wire Wire Line
+	5250 7225 4950 7225
 $EndSCHEMATC
