@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -87,13 +87,9 @@ F12 "SCL_RELAIS" I L 3725 1950 60
 F13 "SDA_RELAIS" B L 3725 2025 60 
 $EndSheet
 Wire Wire Line
-	3125 1625 3375 1625
+	3125 1625 3725 1625
 Wire Wire Line
-	3375 1625 3725 1625
-Wire Wire Line
-	3125 1775 3225 1775
-Wire Wire Line
-	3225 1775 3725 1775
+	3125 1775 3725 1775
 Wire Wire Line
 	3725 2775 3375 2775
 Wire Wire Line
@@ -113,13 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	3725 2025 3650 2025
 Wire Bus Line
-	3550 2050 3550 2125
-Wire Bus Line
-	3550 2125 3550 3300
-Wire Bus Line
-	3550 3300 3550 3375
-Wire Bus Line
-	3550 3375 3550 3650
+	3550 2050 3550 3650
 Entry Wire Line
 	3550 3300 3650 3200
 Entry Wire Line
@@ -153,15 +143,11 @@ Text HLabel 5525 2950 2    60   Output ~ 0
 Text HLabel 5525 3075 2    60   Input ~ 0
 GND
 Wire Wire Line
-	5075 2850 5350 2850
-Wire Wire Line
-	5350 2850 5525 2850
+	5075 2850 5525 2850
 Wire Wire Line
 	5525 2950 5075 2950
 Wire Wire Line
-	5075 3075 5250 3075
-Wire Wire Line
-	5250 3075 5525 3075
+	5075 3075 5525 3075
 Wire Wire Line
 	5075 2375 5250 2375
 Wire Wire Line
@@ -183,9 +169,7 @@ F4 "VCC_Nixie" O R 7925 1625 60
 F5 "GND" I R 7925 1750 60 
 $EndSheet
 Wire Wire Line
-	5075 1625 6725 1625
-Wire Wire Line
-	6725 1625 6875 1625
+	5075 1625 6875 1625
 Wire Wire Line
 	5075 1750 6875 1750
 $Sheet
