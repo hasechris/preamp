@@ -38,6 +38,7 @@ I2C Liste 7bit Adressen
 	DigSply
 		1001 000	0x48	ADC Current sensor
 		1010 000	0x50	Digital Potentiometer
-		
 	
+	Case
+		0100 000	0x20		
 	
