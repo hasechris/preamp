@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 14
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -71,8 +71,8 @@ Wire Wire Line
 $Sheet
 S 3725 1500 1350 925 
 U 58BA9A19
-F0 "relaisboard" 60
-F1 "relaisboard.sch" 60
+F0 "relaisboard_supply" 60
+F1 "relaisboard_supply.sch" 60
 F2 "L_I" I L 3725 1625 60 
 F3 "N_I" O L 3725 1775 60 
 F4 "N_O" I R 5075 1625 60 

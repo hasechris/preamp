@@ -26,14 +26,28 @@ Stromsensor
 ACS758xCB
 Hall Effect Vout
 
+####################################################################################################
+####################################################################################################
+ADC für RCA Inputs:
+	PCM1851A
+	Bauteil für Schematic erstellt
 
-
+####################################################################################################
+DAC für Pre-OUT:
+	PCM512x 2-VRMS DirectPath™ 112/106-dB Audio Stereo DAC With 32-bit,
+	384-kHz PCM Interface
+	PCM5122	(ACTIVE)
+	2V RMS DIRECTPATH 112dB Audio Stereo DAC with PCM Interface and Fixed Audio Processing
+	
+####################################################################################################
+####################################################################################################
 
 I2C Liste 7bit Adressen
 	Allgemein
 		1110 000	0x70	I2C universe switch
 		
-
+	Mainboard Sound
+		1001 010	0x4A	RCA ADC
 
 	DigSply
 		1001 000	0x48	ADC Current sensor
