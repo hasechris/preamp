@@ -483,16 +483,6 @@ Entry Wire Line
 Entry Wire Line
 	5475 4850 5575 4950
 Entry Wire Line
-	4600 4275 4700 4375
-Entry Wire Line
-	4475 4500 4575 4600
-Entry Wire Line
-	4250 4550 4350 4650
-Entry Wire Line
-	4450 4400 4550 4500
-Entry Wire Line
-	4600 4375 4700 4475
-Entry Wire Line
 	5475 5100 5575 5200
 Entry Wire Line
 	5475 5025 5575 5125
@@ -508,6 +498,32 @@ Entry Wire Line
 	5475 4925 5575 5025
 Entry Wire Line
 	5475 5200 5575 5300
-Entry Wire Line
-	4475 4075 4575 4175
+Wire Wire Line
+	5575 5300 5725 5300
+Wire Wire Line
+	5725 5200 5575 5200
+Wire Wire Line
+	5575 5125 5725 5125
+Wire Wire Line
+	5575 5025 5725 5025
+Wire Wire Line
+	5575 4950 5725 4950
+Wire Wire Line
+	5575 4850 5725 4850
+Wire Wire Line
+	5575 4775 5725 4775
+Wire Wire Line
+	5725 4675 5575 4675
+Wire Wire Line
+	5575 4600 5725 4600
+Wire Wire Line
+	5725 4425 5575 4425
+Wire Wire Line
+	5575 4275 5725 4275
+Wire Wire Line
+	5725 4200 5575 4200
+Wire Wire Line
+	5575 4100 5725 4100
+Wire Wire Line
+	5575 4025 5725 4025
 $EndSCHEMATC

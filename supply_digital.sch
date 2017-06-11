@@ -605,9 +605,9 @@ Wire Wire Line
 Wire Wire Line
 	7175 1575 7475 1575
 Wire Wire Line
-	7475 3325 7475 1575
+	7475 1575 7475 3325
 Wire Wire Line
-	6400 3325 7475 3325
+	7475 3325 6400 3325
 Wire Wire Line
 	6400 3325 6400 3200
 Wire Wire Line
