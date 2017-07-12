@@ -1,0 +1,1094 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:selfmade
+LIBS:teensy
+LIBS:preamp-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 13 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Earth #PWR?
+U 1 1 5883EA93
+P 12175 1075
+F 0 "#PWR?" H 12175 825 50  0001 C CNN
+F 1 "Earth" H 12175 925 50  0001 C CNN
+F 2 "" H 12175 1075 50  0000 C CNN
+F 3 "" H 12175 1075 50  0000 C CNN
+	1    12175 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5887EBB9
+P 7750 5325
+F 0 "C?" H 7760 5395 50  0000 L CNN
+F 1 "0.1" H 7760 5245 50  0000 L CNN
+F 2 "" H 7750 5325 50  0000 C CNN
+F 3 "" H 7750 5325 50  0000 C CNN
+	1    7750 5325
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 1750 0    60   Output ~ 0
+GND
+$Comp
+L totx177 U?
+U 1 1 5887F72A
+P 8525 3000
+F 0 "U?" H 8475 3175 60  0000 C CNN
+F 1 "totx177" V 8350 2975 60  0000 C CNN
+F 2 "" H 8475 3075 60  0001 C CNN
+F 3 "" H 8475 3075 60  0001 C CNN
+	1    8525 3000
+	-1   0    0    1   
+$EndComp
+Text HLabel 1675 1825 0    60   Output ~ 0
+5V_MAIN
+$Comp
+L C_Small C?
+U 1 1 588A4B95
+P 7750 4550
+F 0 "C?" H 7760 4620 50  0000 L CNN
+F 1 "0.1" H 7760 4470 50  0000 L CNN
+F 2 "" H 7750 4550 50  0000 C CNN
+F 3 "" H 7750 4550 50  0000 C CNN
+	1    7750 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588A4BF2
+P 7750 3750
+F 0 "C?" H 7760 3820 50  0000 L CNN
+F 1 "0.1" H 7760 3670 50  0000 L CNN
+F 2 "" H 7750 3750 50  0000 C CNN
+F 3 "" H 7750 3750 50  0000 C CNN
+	1    7750 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588A4C56
+P 8125 5325
+F 0 "C?" H 8135 5395 50  0000 L CNN
+F 1 "0.1" H 8135 5245 50  0000 L CNN
+F 2 "" H 8125 5325 50  0000 C CNN
+F 3 "" H 8125 5325 50  0000 C CNN
+	1    8125 5325
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588A4CD3
+P 8125 4550
+F 0 "C?" H 8135 4620 50  0000 L CNN
+F 1 "0.1" H 8135 4470 50  0000 L CNN
+F 2 "" H 8125 4550 50  0000 C CNN
+F 3 "" H 8125 4550 50  0000 C CNN
+	1    8125 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588A4D43
+P 8125 3750
+F 0 "C?" H 8135 3820 50  0000 L CNN
+F 1 "0.1" H 8135 3670 50  0000 L CNN
+F 2 "" H 8125 3750 50  0000 C CNN
+F 3 "" H 8125 3750 50  0000 C CNN
+	1    8125 3750
+	-1   0    0    1   
+$EndComp
+Text HLabel 1675 1175 0    60   Output ~ 0
+Toslink_RX1
+Text HLabel 1675 1100 0    60   Output ~ 0
+Toslink_RX2
+Text HLabel 1675 1025 0    60   Output ~ 0
+Toslink_RX3
+Text HLabel 1675 950  0    60   Output ~ 0
+Toslink_RX4
+Text HLabel 1675 875  0    60   Output ~ 0
+Toslink_RX5
+Text HLabel 1675 800  0    60   Output ~ 0
+Toslink_RX6
+$Comp
+L torx177 U?
+U 1 1 588BBD81
+P 8525 3875
+F 0 "U?" H 8475 4050 60  0000 C CNN
+F 1 "torx177" V 8350 3850 60  0000 C CNN
+F 2 "" H 8475 3950 60  0001 C CNN
+F 3 "" H 8475 3950 60  0001 C CNN
+	1    8525 3875
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588BC18F
+P 8125 2875
+F 0 "C?" H 8135 2945 50  0000 L CNN
+F 1 "0.1" H 8135 2795 50  0000 L CNN
+F 2 "" H 8125 2875 50  0000 C CNN
+F 3 "" H 8125 2875 50  0000 C CNN
+	1    8125 2875
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 1300 0    60   Output ~ 0
+Toslink_TX1
+$Comp
+L PCF8574 U?
+U 1 1 588AA316
+P 8050 1550
+F 0 "U?" H 7700 2150 50  0000 L CNN
+F 1 "PCF8574" H 8150 2150 50  0000 L CNN
+F 2 "" H 8050 1550 50  0000 C CNN
+F 3 "" H 8050 1550 50  0000 C CNN
+	1    8050 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ULN2003A U?
+U 1 1 588AC2D0
+P 6700 1550
+F 0 "U?" H 6700 1650 50  0000 C CNN
+F 1 "ULN2003A" H 6700 1450 50  0000 C CNN
+F 2 "" H 6700 1550 50  0000 C CNN
+F 3 "" H 6700 1550 50  0000 C CNN
+	1    6700 1550
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 1425 0    60   Input ~ 0
+SCL
+Text HLabel 1675 1500 0    60   BiDi ~ 0
+SDA
+$Comp
+L IEC_power X?
+U 1 1 58BCF522
+P 13475 1075
+F 0 "X?" H 13525 1375 60  0000 C CNN
+F 1 "IEC_power" H 13700 1025 60  0000 C CNN
+F 2 "" H 13475 1075 60  0001 C CNN
+F 3 "" H 13475 1075 60  0001 C CNN
+	1    13475 1075
+	-1   0    0    -1  
+$EndComp
+Text HLabel 12700 900  0    60   Output ~ 0
+L_O
+Text HLabel 12700 1050 0    60   Input ~ 0
+N_O
+Entry Wire Line
+	1800 800  1900 700 
+Entry Wire Line
+	1800 875  1900 775 
+Entry Wire Line
+	1800 950  1900 850 
+Entry Wire Line
+	1800 1025 1900 925 
+Entry Wire Line
+	1800 1100 1900 1000
+Entry Wire Line
+	1800 1175 1900 1075
+Entry Wire Line
+	1800 1300 1900 1200
+Entry Wire Line
+	8925 3350 9025 3250
+Wire Wire Line
+	7650 5475 8175 5475
+Wire Wire Line
+	7750 5475 7750 5425
+Wire Wire Line
+	7650 5200 8175 5200
+Wire Wire Line
+	7750 5200 7750 5225
+Wire Wire Line
+	7650 4700 8175 4700
+Wire Wire Line
+	7650 3900 8175 3900
+Wire Wire Line
+	8125 5425 8125 5475
+Connection ~ 8125 5475
+Wire Wire Line
+	7650 4425 8175 4425
+Wire Wire Line
+	7650 3625 8175 3625
+Wire Wire Line
+	7750 4700 7750 4650
+Wire Wire Line
+	7750 4425 7750 4450
+Wire Wire Line
+	7750 3900 7750 3850
+Wire Wire Line
+	7750 3625 7750 3650
+Wire Wire Line
+	8125 5200 8125 5225
+Connection ~ 8125 5200
+Connection ~ 7875 4700
+Connection ~ 7975 4425
+Wire Wire Line
+	8125 3850 8125 3900
+Connection ~ 8125 3900
+Wire Wire Line
+	8125 3650 8125 3625
+Connection ~ 8125 3625
+Wire Wire Line
+	8125 4425 8125 4450
+Connection ~ 8125 4425
+Wire Wire Line
+	8125 4650 8125 4700
+Connection ~ 8125 4700
+Wire Wire Line
+	8050 2350 8050 2250
+Wire Wire Line
+	8050 750  8050 850 
+Wire Wire Line
+	7550 1150 7350 1150
+Wire Wire Line
+	7350 1250 7550 1250
+Wire Wire Line
+	7550 1350 7350 1350
+Wire Wire Line
+	7350 1450 7550 1450
+Wire Wire Line
+	7550 1550 7350 1550
+Wire Wire Line
+	7350 1650 7550 1650
+Wire Wire Line
+	7550 1750 7350 1750
+Wire Wire Line
+	8925 1150 8550 1150
+Wire Wire Line
+	8550 1250 8925 1250
+Wire Wire Line
+	2175 750  8050 750 
+Wire Wire Line
+	8850 2350 7875 2350
+Wire Wire Line
+	1675 800  1800 800 
+Wire Wire Line
+	1800 875  1675 875 
+Wire Wire Line
+	1675 950  1800 950 
+Wire Wire Line
+	1800 1025 1675 1025
+Wire Wire Line
+	1675 1100 1800 1100
+Wire Wire Line
+	1800 1175 1675 1175
+Wire Wire Line
+	1675 1300 1800 1300
+Wire Wire Line
+	8850 675  8850 2350
+Wire Wire Line
+	8550 1450 8850 1450
+Wire Wire Line
+	8550 1550 8850 1550
+Connection ~ 8850 1550
+Wire Wire Line
+	8850 1650 8550 1650
+Wire Wire Line
+	7975 3225 7975 5200
+Wire Wire Line
+	7875 3025 8175 3025
+Wire Wire Line
+	8125 3025 8125 2975
+Wire Wire Line
+	8125 2500 8125 2775
+Wire Wire Line
+	8125 2750 8175 2750
+Wire Wire Line
+	7875 2350 7875 5475
+Connection ~ 8125 3025
+Connection ~ 8850 1650
+Wire Bus Line
+	9025 575  1900 575 
+$Comp
+L GroundPost U?
+U 1 1 593BF2BE
+P 13275 1550
+F 0 "U?" H 13375 1775 60  0000 C CNN
+F 1 "GroundPost" H 13575 1700 60  0000 C CNN
+F 2 "" H 13275 1550 60  0001 C CNN
+F 3 "" H 13275 1550 60  0001 C CNN
+	1    13275 1550
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	1900 575  1900 1400
+Wire Wire Line
+	1675 1750 2100 1750
+Wire Wire Line
+	2100 1750 2100 675 
+Wire Wire Line
+	1675 1825 2175 1825
+Wire Wire Line
+	2175 1825 2175 750 
+Wire Wire Line
+	12700 900  13025 900 
+Wire Wire Line
+	12975 1050 12700 1050
+Wire Wire Line
+	12175 975  12975 975 
+Wire Wire Line
+	12175 975  12175 1075
+Wire Wire Line
+	12375 975  12375 2175
+Wire Wire Line
+	12375 1575 13050 1575
+Connection ~ 12375 975 
+Connection ~ 7875 5475
+Connection ~ 7750 5475
+Connection ~ 7975 5200
+Connection ~ 7750 5200
+Connection ~ 7750 4700
+Connection ~ 7750 4425
+Connection ~ 7750 3900
+Connection ~ 7875 3900
+Connection ~ 7975 3625
+Connection ~ 7750 3625
+Entry Wire Line
+	8925 4250 9025 4150
+Entry Wire Line
+	8925 4150 9025 4050
+Entry Wire Line
+	8925 4950 9025 4850
+Entry Wire Line
+	8925 5025 9025 4925
+Entry Wire Line
+	8925 5725 9025 5625
+Entry Wire Line
+	8925 5800 9025 5700
+Wire Bus Line
+	9025 575  9025 5700
+Wire Wire Line
+	8175 4050 8175 4150
+Wire Wire Line
+	8175 4150 8925 4150
+Wire Wire Line
+	8925 4250 8100 4250
+Wire Wire Line
+	8100 4250 8100 4050
+Wire Wire Line
+	8100 4050 7650 4050
+Wire Wire Line
+	7650 4850 8100 4850
+Wire Wire Line
+	8100 4850 8100 5025
+Wire Wire Line
+	8100 5025 8925 5025
+Wire Wire Line
+	8925 4950 8175 4950
+Wire Wire Line
+	8175 4950 8175 4850
+Wire Wire Line
+	8175 5625 8175 5725
+Wire Wire Line
+	8175 5725 8925 5725
+Wire Wire Line
+	8925 5800 8100 5800
+Wire Wire Line
+	8100 5800 8100 5625
+Wire Wire Line
+	8100 5625 7650 5625
+Wire Wire Line
+	8175 3175 8175 3350
+Wire Wire Line
+	8175 3350 8925 3350
+Connection ~ 8050 2350
+Connection ~ 7875 3025
+Connection ~ 8850 1450
+Wire Wire Line
+	6100 2900 6100 3225
+Wire Wire Line
+	6100 3225 7975 3225
+Entry Wire Line
+	8925 1150 9025 1050
+Entry Wire Line
+	8925 1250 9025 1150
+Entry Wire Line
+	1800 1425 1900 1325
+Entry Wire Line
+	1800 1500 1900 1400
+Wire Wire Line
+	1800 1500 1675 1500
+Wire Wire Line
+	1675 1425 1800 1425
+$Comp
+L torx177 U?
+U 1 1 593DBC4C
+P 8525 4675
+F 0 "U?" H 8475 4850 60  0000 C CNN
+F 1 "torx177" V 8350 4650 60  0000 C CNN
+F 2 "" H 8475 4750 60  0001 C CNN
+F 3 "" H 8475 4750 60  0001 C CNN
+	1    8525 4675
+	-1   0    0    1   
+$EndComp
+$Comp
+L torx177 U?
+U 1 1 593DBCD0
+P 8525 5450
+F 0 "U?" H 8475 5625 60  0000 C CNN
+F 1 "torx177" V 8350 5425 60  0000 C CNN
+F 2 "" H 8475 5525 60  0001 C CNN
+F 3 "" H 8475 5525 60  0001 C CNN
+	1    8525 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L torx177 U?
+U 1 1 593DBD4F
+P 7300 5450
+F 0 "U?" H 7250 5625 60  0000 C CNN
+F 1 "torx177" V 7125 5425 60  0000 C CNN
+F 2 "" H 7250 5525 60  0001 C CNN
+F 3 "" H 7250 5525 60  0001 C CNN
+	1    7300 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L torx177 U?
+U 1 1 593DBE29
+P 7300 4675
+F 0 "U?" H 7250 4850 60  0000 C CNN
+F 1 "torx177" V 7125 4650 60  0000 C CNN
+F 2 "" H 7250 4750 60  0001 C CNN
+F 3 "" H 7250 4750 60  0001 C CNN
+	1    7300 4675
+	1    0    0    1   
+$EndComp
+$Comp
+L torx177 U?
+U 1 1 593DBEA4
+P 7300 3875
+F 0 "U?" H 7250 4050 60  0000 C CNN
+F 1 "torx177" V 7125 3850 60  0000 C CNN
+F 2 "" H 7250 3950 60  0001 C CNN
+F 3 "" H 7250 3950 60  0001 C CNN
+	1    7300 3875
+	1    0    0    1   
+$EndComp
+Text Label 8275 3350 0    60   ~ 0
+TOSLINK_TX1
+Text Label 8825 5800 3    60   ~ 0
+TOSLINK_RX4
+Text Label 8925 5725 3    60   ~ 0
+TOSLINK_RX3
+Text Label 8850 5025 3    60   ~ 0
+TOSLINK_RX5
+Text Label 8925 4950 3    60   ~ 0
+TOSLINK_RX2
+Text Label 8825 4250 3    60   ~ 0
+TOSLINK_RX6
+Text Label 8925 4150 3    60   ~ 0
+TOSLINK_RX1
+Text Label 6150 3225 0    60   ~ 0
+VCC_Toslink_RX
+Text Label 12375 1775 1    60   ~ 0
+Earth/PE
+$Comp
+L RCA X?
+U 1 1 593E1281
+P 3500 2525
+F 0 "X?" H 3350 2500 60  0000 C CNN
+F 1 "PREOUT_L" H 3175 2575 60  0000 C CNN
+F 2 "" H 3500 2525 60  0001 C CNN
+F 3 "" H 3500 2525 60  0001 C CNN
+	1    3500 2525
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 2750 0    60   Input ~ 0
+PreoutL
+Text HLabel 1675 3050 0    60   Input ~ 0
+PreoutR
+Text HLabel 1675 2825 0    60   Output ~ 0
+PreoutLGND
+Wire Wire Line
+	1675 2825 2500 2825
+Wire Wire Line
+	1675 3050 2125 3050
+Wire Wire Line
+	1675 2750 2125 2750
+$Comp
+L RY12WK K?
+U 1 1 5945AA7A
+P 2375 2725
+F 0 "K?" H 3050 2750 60  0000 C CNN
+F 1 "RY12WK" H 2555 2865 60  0000 C CNN
+F 2 "" H 2375 2725 60  0001 C CNN
+F 3 "" H 2375 2725 60  0001 C CNN
+	1    2375 2725
+	1    0    0    -1  
+$EndComp
+$Comp
+L RY12WK K?
+U 1 1 5945F093
+P 2375 3350
+F 0 "K?" H 3025 3380 60  0000 C CNN
+F 1 "RY12WK" H 2555 3490 60  0000 C CNN
+F 2 "" H 2375 3350 60  0001 C CNN
+F 3 "" H 2375 3350 60  0001 C CNN
+	1    2375 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA X?
+U 1 1 59463056
+P 3500 3250
+F 0 "X?" H 3350 3225 60  0000 C CNN
+F 1 "PREOUT_R" H 3175 3300 60  0000 C CNN
+F 2 "" H 3500 3250 60  0001 C CNN
+F 3 "" H 3500 3250 60  0001 C CNN
+	1    3500 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 2825 2925 2975
+Wire Wire Line
+	3250 3150 2800 3150
+Wire Wire Line
+	2800 3150 2800 2975
+Wire Wire Line
+	2800 2975 2700 2975
+Wire Wire Line
+	3250 3250 2800 3250
+Wire Wire Line
+	2800 3250 2800 3450
+Wire Wire Line
+	2700 2350 2800 2350
+Wire Wire Line
+	2800 2350 2800 2525
+Wire Wire Line
+	2800 2525 3250 2525
+Wire Wire Line
+	3250 2625 2800 2625
+Wire Wire Line
+	2800 2625 2800 2825
+Wire Wire Line
+	2800 2825 2700 2825
+Text HLabel 1675 2975 0    60   Output ~ 0
+PreoutRGND
+Wire Wire Line
+	1675 2975 2500 2975
+Wire Wire Line
+	2125 2825 2125 2825
+Wire Wire Line
+	2125 3050 2125 3450
+Wire Wire Line
+	2125 3450 2500 3450
+Wire Wire Line
+	2800 3450 2700 3450
+Wire Wire Line
+	2500 2350 2125 2350
+Wire Wire Line
+	2125 2350 2125 2750
+$Comp
+L RCA X?
+U 1 1 59467E0B
+P 3500 3925
+F 0 "X?" H 3350 3900 60  0000 C CNN
+F 1 "PHONO_L" H 3175 3975 60  0000 C CNN
+F 2 "" H 3500 3925 60  0001 C CNN
+F 3 "" H 3500 3925 60  0001 C CNN
+	1    3500 3925
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 4150 0    60   Input ~ 0
+PhonoL
+Text HLabel 1675 4450 0    60   Input ~ 0
+PhonoR
+Text HLabel 1675 4225 0    60   Output ~ 0
+PhonoLGND
+Wire Wire Line
+	1675 4225 2500 4225
+Wire Wire Line
+	1675 4450 2125 4450
+Wire Wire Line
+	1675 4150 2125 4150
+$Comp
+L RY12WK K?
+U 1 1 59467E17
+P 2375 4125
+F 0 "K?" H 3050 4150 60  0000 C CNN
+F 1 "RY12WK" H 2555 4265 60  0000 C CNN
+F 2 "" H 2375 4125 60  0001 C CNN
+F 3 "" H 2375 4125 60  0001 C CNN
+	1    2375 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L RY12WK K?
+U 1 1 59467E1D
+P 2375 4750
+F 0 "K?" H 3025 4780 60  0000 C CNN
+F 1 "RY12WK" H 2555 4890 60  0000 C CNN
+F 2 "" H 2375 4750 60  0001 C CNN
+F 3 "" H 2375 4750 60  0001 C CNN
+	1    2375 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA X?
+U 1 1 59467E23
+P 3500 4650
+F 0 "X?" H 3350 4625 60  0000 C CNN
+F 1 "PHONO_R" H 3175 4700 60  0000 C CNN
+F 2 "" H 3500 4650 60  0001 C CNN
+F 3 "" H 3500 4650 60  0001 C CNN
+	1    3500 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 4225 2925 4375
+Wire Wire Line
+	3250 4550 2800 4550
+Wire Wire Line
+	2800 4550 2800 4375
+Wire Wire Line
+	2800 4375 2700 4375
+Wire Wire Line
+	3250 4650 2800 4650
+Wire Wire Line
+	2800 4650 2800 4850
+Wire Wire Line
+	2700 3750 2800 3750
+Wire Wire Line
+	2800 3750 2800 3925
+Wire Wire Line
+	2800 3925 3250 3925
+Wire Wire Line
+	3250 4025 2800 4025
+Wire Wire Line
+	2800 4025 2800 4225
+Wire Wire Line
+	2800 4225 2700 4225
+Text HLabel 1675 4375 0    60   Output ~ 0
+PhonoRGND
+Wire Wire Line
+	1675 4375 2500 4375
+Wire Wire Line
+	2125 4225 2125 4225
+Wire Wire Line
+	2125 4450 2125 4850
+Wire Wire Line
+	2125 4850 2500 4850
+Wire Wire Line
+	2800 4850 2700 4850
+Wire Wire Line
+	2500 3750 2125 3750
+Wire Wire Line
+	2125 3750 2125 4150
+$Comp
+L RCA X?
+U 1 1 5946AEFD
+P 3500 5350
+F 0 "X?" H 3350 5325 60  0000 C CNN
+F 1 "INPUT1_L" H 3175 5400 60  0000 C CNN
+F 2 "" H 3500 5350 60  0001 C CNN
+F 3 "" H 3500 5350 60  0001 C CNN
+	1    3500 5350
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 5575 0    60   Input ~ 0
+PreoutL
+Text HLabel 1675 5875 0    60   Input ~ 0
+PreoutR
+Text HLabel 1675 5650 0    60   Output ~ 0
+PreoutLGND
+Wire Wire Line
+	1675 5650 2500 5650
+Wire Wire Line
+	1675 5875 2125 5875
+Wire Wire Line
+	1675 5575 2125 5575
+$Comp
+L RY12WK K?
+U 1 1 5946AF09
+P 2375 5550
+F 0 "K?" H 3050 5575 60  0000 C CNN
+F 1 "RY12WK" H 2555 5690 60  0000 C CNN
+F 2 "" H 2375 5550 60  0001 C CNN
+F 3 "" H 2375 5550 60  0001 C CNN
+	1    2375 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L RY12WK K?
+U 1 1 5946AF0F
+P 2375 6175
+F 0 "K?" H 3025 6205 60  0000 C CNN
+F 1 "RY12WK" H 2555 6315 60  0000 C CNN
+F 2 "" H 2375 6175 60  0001 C CNN
+F 3 "" H 2375 6175 60  0001 C CNN
+	1    2375 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA X?
+U 1 1 5946AF15
+P 3500 6075
+F 0 "X?" H 3350 6050 60  0000 C CNN
+F 1 "INPUT2_R" H 3175 6125 60  0000 C CNN
+F 2 "" H 3500 6075 60  0001 C CNN
+F 3 "" H 3500 6075 60  0001 C CNN
+	1    3500 6075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 5650 2925 5800
+Wire Wire Line
+	3250 5975 2800 5975
+Wire Wire Line
+	2800 5975 2800 5800
+Wire Wire Line
+	2800 5800 2700 5800
+Wire Wire Line
+	3250 6075 2800 6075
+Wire Wire Line
+	2800 6075 2800 6275
+Wire Wire Line
+	2700 5175 2800 5175
+Wire Wire Line
+	2800 5175 2800 5350
+Wire Wire Line
+	2800 5350 3250 5350
+Wire Wire Line
+	3250 5450 2800 5450
+Wire Wire Line
+	2800 5450 2800 5650
+Wire Wire Line
+	2800 5650 2700 5650
+Text HLabel 1675 5800 0    60   Output ~ 0
+PreoutLGND
+Wire Wire Line
+	1675 5800 2500 5800
+Wire Wire Line
+	2125 5650 2125 5650
+Wire Wire Line
+	2125 5875 2125 6275
+Wire Wire Line
+	2125 6275 2500 6275
+Wire Wire Line
+	2800 6275 2700 6275
+Wire Wire Line
+	2500 5175 2125 5175
+Wire Wire Line
+	2125 5175 2125 5575
+$Comp
+L RCA X?
+U 1 1 5946AF32
+P 3500 6750
+F 0 "X?" H 3350 6725 60  0000 C CNN
+F 1 "PREOUT_L" H 3175 6800 60  0000 C CNN
+F 2 "" H 3500 6750 60  0001 C CNN
+F 3 "" H 3500 6750 60  0001 C CNN
+	1    3500 6750
+	-1   0    0    -1  
+$EndComp
+Text HLabel 1675 6975 0    60   Input ~ 0
+PreoutL
+Text HLabel 1675 7275 0    60   Input ~ 0
+PreoutR
+Text HLabel 1675 7050 0    60   Output ~ 0
+PreoutLGND
+Wire Wire Line
+	1675 7050 2500 7050
+Wire Wire Line
+	1675 7275 2125 7275
+Wire Wire Line
+	1675 6975 2125 6975
+$Comp
+L RY12WK K?
+U 1 1 5946AF3E
+P 2375 6950
+F 0 "K?" H 3050 6975 60  0000 C CNN
+F 1 "RY12WK" H 2555 7090 60  0000 C CNN
+F 2 "" H 2375 6950 60  0001 C CNN
+F 3 "" H 2375 6950 60  0001 C CNN
+	1    2375 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RY12WK K?
+U 1 1 5946AF44
+P 2375 7575
+F 0 "K?" H 3025 7605 60  0000 C CNN
+F 1 "RY12WK" H 2555 7715 60  0000 C CNN
+F 2 "" H 2375 7575 60  0001 C CNN
+F 3 "" H 2375 7575 60  0001 C CNN
+	1    2375 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L RCA X?
+U 1 1 5946AF4A
+P 3500 7475
+F 0 "X?" H 3350 7450 60  0000 C CNN
+F 1 "PREOUT_R" H 3175 7525 60  0000 C CNN
+F 2 "" H 3500 7475 60  0001 C CNN
+F 3 "" H 3500 7475 60  0001 C CNN
+	1    3500 7475
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2925 7050 2925 7200
+Wire Wire Line
+	3250 7375 2800 7375
+Wire Wire Line
+	2800 7375 2800 7200
+Wire Wire Line
+	2800 7200 2700 7200
+Wire Wire Line
+	3250 7475 2800 7475
+Wire Wire Line
+	2800 7475 2800 7675
+Wire Wire Line
+	2700 6575 2800 6575
+Wire Wire Line
+	2800 6575 2800 6750
+Wire Wire Line
+	2800 6750 3250 6750
+Wire Wire Line
+	3250 6850 2800 6850
+Wire Wire Line
+	2800 6850 2800 7050
+Wire Wire Line
+	2800 7050 2700 7050
+Text HLabel 1675 7200 0    60   Output ~ 0
+PreoutLGND
+Wire Wire Line
+	1675 7200 2500 7200
+Wire Wire Line
+	2125 7050 2125 7050
+Wire Wire Line
+	2125 7275 2125 7675
+Wire Wire Line
+	2125 7675 2500 7675
+Wire Wire Line
+	2800 7675 2700 7675
+Wire Wire Line
+	2500 6575 2125 6575
+Wire Wire Line
+	2125 6575 2125 6975
+Entry Wire Line
+	5875 1050 5975 1150
+Entry Wire Line
+	5875 1150 5975 1250
+Entry Wire Line
+	5875 1250 5975 1350
+Entry Wire Line
+	5875 1350 5975 1450
+Entry Wire Line
+	5875 1450 5975 1550
+Wire Wire Line
+	5975 1150 6050 1150
+Wire Wire Line
+	6050 1250 5975 1250
+Wire Wire Line
+	5975 1350 6050 1350
+Wire Wire Line
+	6050 1450 5975 1450
+Wire Wire Line
+	6050 1550 5975 1550
+Wire Bus Line
+	5875 1050 5875 1450
+Wire Bus Line
+	4275 1600 4275 7650
+Entry Wire Line
+	4175 3500 4275 3400
+Entry Wire Line
+	4175 2275 4275 2175
+Wire Wire Line
+	2925 2350 2925 2275
+Wire Wire Line
+	2925 2275 4175 2275
+Wire Wire Line
+	4175 3500 2925 3500
+Wire Wire Line
+	2925 3500 2925 3450
+Wire Wire Line
+	2925 2900 4375 2900
+Wire Wire Line
+	4375 675  4375 7150
+Connection ~ 2925 2900
+Wire Wire Line
+	4375 4300 2925 4300
+Connection ~ 2925 4300
+Wire Wire Line
+	4375 5725 2925 5725
+Connection ~ 4375 4300
+Connection ~ 2925 5725
+Wire Wire Line
+	4375 7150 2925 7150
+Connection ~ 4375 5725
+Connection ~ 2925 7150
+Entry Wire Line
+	4175 4900 4275 4800
+Entry Wire Line
+	4175 3675 4275 3575
+Wire Wire Line
+	2925 3675 4175 3675
+Wire Wire Line
+	4175 4900 2925 4900
+Entry Wire Line
+	4175 7750 4275 7650
+Entry Wire Line
+	4175 6525 4275 6425
+Wire Wire Line
+	2925 6525 4175 6525
+Wire Wire Line
+	4175 7750 2925 7750
+Entry Wire Line
+	4175 6325 4275 6225
+Entry Wire Line
+	4175 5100 4275 5000
+Wire Wire Line
+	2925 5100 4175 5100
+Wire Wire Line
+	4175 6325 2925 6325
+Wire Wire Line
+	2925 7750 2925 7675
+Wire Wire Line
+	2925 6575 2925 6525
+Wire Wire Line
+	2925 6325 2925 6275
+Wire Wire Line
+	2925 5175 2925 5100
+Wire Wire Line
+	2925 4900 2925 4850
+Wire Wire Line
+	2925 3750 2925 3675
+$Comp
+L RY12WK K?
+U 1 1 5947A5D5
+P 6025 2600
+F 0 "K?" H 6675 2630 60  0000 C CNN
+F 1 "RY12WK" H 6205 2740 60  0000 C CNN
+F 2 "" H 6025 2600 60  0001 C CNN
+F 3 "" H 6025 2600 60  0001 C CNN
+	1    6025 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 675  8850 675 
+$Comp
+L RY12WK K?
+U 1 1 5947C223
+P 6025 3275
+F 0 "K?" H 6675 3305 60  0000 C CNN
+F 1 "RY12WK" H 6205 3415 60  0000 C CNN
+F 2 "" H 6025 3275 60  0001 C CNN
+F 3 "" H 6025 3275 60  0001 C CNN
+	1    6025 3275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2900 6100 2900
+Wire Wire Line
+	6050 1875 6050 1950
+Wire Wire Line
+	5575 1875 6700 1875
+Wire Wire Line
+	6700 1875 6700 750 
+Connection ~ 6700 750 
+Entry Wire Line
+	5875 1550 5975 1650
+Entry Wire Line
+	5875 1650 5975 1750
+Wire Wire Line
+	5975 1650 6050 1650
+Wire Wire Line
+	6050 1750 5975 1750
+Wire Bus Line
+	5875 1550 5875 1800
+Wire Bus Line
+	5875 1800 5050 1800
+Wire Bus Line
+	5050 1800 5050 3475
+Entry Wire Line
+	5050 3475 5150 3375
+Entry Wire Line
+	5050 2325 5150 2225
+Wire Wire Line
+	5150 3375 5475 3375
+Wire Wire Line
+	5475 2225 5150 2225
+Wire Wire Line
+	5700 1875 5700 2225
+Connection ~ 6050 1875
+Wire Wire Line
+	5475 2700 5475 2900
+Wire Wire Line
+	5700 2900 5575 2900
+Wire Wire Line
+	5575 2900 5575 1875
+Connection ~ 5700 1875
+Wire Wire Line
+	5900 2225 6125 2225
+Wire Wire Line
+	6125 2225 6125 2500
+Wire Wire Line
+	6125 2500 8125 2500
+Connection ~ 8125 2750
+Text Label 6275 2500 0    60   ~ 0
+VCC_Toslink_TX
+Wire Bus Line
+	4275 1600 5750 1600
+Wire Bus Line
+	5750 1600 5750 1450
+Wire Bus Line
+	5750 1450 5875 1450
+Connection ~ 4375 675 
+Connection ~ 4375 2900
+$Comp
+L RJ45_extension X?
+U 1 1 594941C2
+P 13275 2075
+F 0 "X?" H 13200 1875 60  0000 C CNN
+F 1 "RJ45_extension" H 13325 2275 60  0000 C CNN
+F 2 "" H 13275 2075 60  0001 C CNN
+F 3 "" H 13275 2075 60  0001 C CNN
+	1    13275 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12375 2175 13025 2175
+Connection ~ 12375 1575
+$EndSCHEMATC

@@ -1,0 +1,506 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:selfmade
+LIBS:teensy
+LIBS:preamp-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WM8805 U?
+U 1 1 5885E662
+P 5050 3500
+F 0 "U?" H 5025 4275 50  0000 C CNN
+F 1 "WM8805" H 5025 4175 50  0000 C CNN
+F 2 "TSSOP28" H 5025 4075 50  0000 C CIN
+F 3 "" H 5025 4075 50  0000 C CNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5885E7E7
+P 3475 2775
+F 0 "C?" H 3500 2875 50  0000 L CNN
+F 1 "0.1u" H 3500 2675 50  0000 L CNN
+F 2 "" H 3513 2625 50  0000 C CNN
+F 3 "" H 3475 2775 50  0000 C CNN
+	1    3475 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5885E838
+P 3800 2775
+F 0 "C?" H 3825 2875 50  0000 L CNN
+F 1 "0.1u" H 3825 2675 50  0000 L CNN
+F 2 "" H 3838 2625 50  0000 C CNN
+F 3 "" H 3800 2775 50  0000 C CNN
+	1    3800 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5885E8F3
+P 3475 3025
+F 0 "#PWR?" H 3475 2775 50  0001 C CNN
+F 1 "GND" H 3475 2875 50  0000 C CNN
+F 2 "" H 3475 3025 50  0000 C CNN
+F 3 "" H 3475 3025 50  0000 C CNN
+	1    3475 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 3025 4250 3025
+Wire Wire Line
+	4250 2950 4200 2950
+Wire Wire Line
+	4200 2950 4200 3025
+Connection ~ 4200 3025
+Wire Wire Line
+	3800 2925 3800 3025
+Connection ~ 3800 3025
+Wire Wire Line
+	3475 3025 3475 2925
+Wire Wire Line
+	4250 2725 4200 2725
+Wire Wire Line
+	4200 2725 4200 2525
+Wire Wire Line
+	4200 2525 3475 2525
+Wire Wire Line
+	3475 2400 3475 2625
+Wire Wire Line
+	4250 2800 4125 2800
+Wire Wire Line
+	4125 2800 4125 2600
+Wire Wire Line
+	4125 2600 3800 2600
+Wire Wire Line
+	3800 2400 3800 2625
+$Comp
+L DVDD #PWR?
+U 1 1 5885EB6A
+P 3475 2400
+F 0 "#PWR?" V 3375 2450 50  0001 C CNN
+F 1 "DVDD" H 3475 2575 50  0000 C CNN
+F 2 "" H 3475 2400 50  0000 C CNN
+F 3 "" H 3475 2400 50  0000 C CNN
+	1    3475 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L AVDD #PWR?
+U 1 1 5885EB84
+P 3800 2400
+F 0 "#PWR?" V 3700 2450 50  0001 C CNN
+F 1 "AVDD" H 3800 2575 50  0000 C CNN
+F 2 "" H 3800 2400 50  0000 C CNN
+F 3 "" H 3800 2400 50  0000 C CNN
+	1    3800 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3475 2525
+Connection ~ 3800 2600
+Text HLabel 4125 3150 0    60   Input ~ 0
+RESET
+Wire Wire Line
+	4125 3150 4250 3150
+$Comp
+L Crystal Y?
+U 1 1 5885ED0E
+P 3875 3475
+F 0 "Y?" H 3875 3625 50  0000 C CNN
+F 1 "Crystal" H 3875 3325 50  0000 C CNN
+F 2 "" H 3875 3475 50  0000 C CNN
+F 3 "" H 3875 3475 50  0000 C CNN
+	1    3875 3475
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5885EDB1
+P 3375 3325
+F 0 "C?" H 3400 3425 50  0000 L CNN
+F 1 "15p" H 3400 3225 50  0000 L CNN
+F 2 "" H 3413 3175 50  0000 C CNN
+F 3 "" H 3375 3325 50  0000 C CNN
+	1    3375 3325
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5885EE05
+P 3375 3625
+F 0 "C?" H 3400 3725 50  0000 L CNN
+F 1 "15p" H 3400 3525 50  0000 L CNN
+F 2 "" H 3413 3475 50  0000 C CNN
+F 3 "" H 3375 3625 50  0000 C CNN
+	1    3375 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5885EE4F
+P 3150 3800
+F 0 "#PWR?" H 3150 3550 50  0001 C CNN
+F 1 "GND" H 3150 3650 50  0000 C CNN
+F 2 "" H 3150 3800 50  0000 C CNN
+F 3 "" H 3150 3800 50  0000 C CNN
+	1    3150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3325 3150 3800
+Wire Wire Line
+	3150 3625 3225 3625
+Wire Wire Line
+	3225 3325 3150 3325
+Connection ~ 3150 3625
+Wire Wire Line
+	3525 3625 4150 3625
+Wire Wire Line
+	3525 3325 4100 3325
+Wire Wire Line
+	4100 3325 4100 3275
+Wire Wire Line
+	4100 3275 4250 3275
+Connection ~ 3875 3325
+Wire Wire Line
+	4250 3350 4150 3350
+Wire Wire Line
+	4150 3350 4150 3625
+Connection ~ 3875 3625
+Text HLabel 4100 3775 0    60   Output ~ 0
+SDOUT
+Text HLabel 4100 3850 0    60   Input ~ 0
+SDIN
+Text HLabel 4100 3925 0    60   Input ~ 0
+SCLK
+Text HLabel 4100 4000 0    60   Input ~ 0
+CSB
+Wire Wire Line
+	4100 3775 4250 3775
+Wire Wire Line
+	4250 3850 4100 3850
+Wire Wire Line
+	4100 3925 4250 3925
+Wire Wire Line
+	4100 4000 4250 4000
+Text HLabel 4100 4125 0    60   Output ~ 0
+GPO1
+Wire Wire Line
+	4100 4125 4250 4125
+Text HLabel 4100 4200 0    60   Output ~ 0
+GPO0
+Wire Wire Line
+	4250 4200 4100 4200
+$Comp
+L R R?
+U 1 1 5885F3FA
+P 6350 4625
+F 0 "R?" V 6430 4625 50  0000 C CNN
+F 1 "210" V 6350 4625 50  0000 C CNN
+F 2 "" V 6280 4625 50  0000 C CNN
+F 3 "" H 6350 4625 50  0000 C CNN
+	1    6350 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5885F552
+P 6500 4925
+F 0 "R?" V 6580 4925 50  0000 C CNN
+F 1 "110" V 6500 4925 50  0000 C CNN
+F 2 "" V 6430 4925 50  0000 C CNN
+F 3 "" H 6500 4925 50  0000 C CNN
+	1    6500 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5885F81B
+P 6575 5375
+F 0 "#PWR?" H 6575 5125 50  0001 C CNN
+F 1 "GND" H 6575 5225 50  0000 C CNN
+F 2 "" H 6575 5375 50  0000 C CNN
+F 3 "" H 6575 5375 50  0000 C CNN
+	1    6575 5375
+	1    0    0    -1  
+$EndComp
+Text HLabel 8075 4625 2    60   Output ~ 0
+Toslink_TX0
+Wire Wire Line
+	5850 4225 6125 4225
+$Comp
+L C_Array C?
+U 1 1 58861245
+P 6725 3550
+F 0 "C?" H 6600 3800 60  0000 C CNN
+F 1 "C_Array" H 6700 3300 60  0000 C CNN
+F 2 "" H 6725 3450 60  0001 C CNN
+F 3 "" H 6725 3450 60  0001 C CNN
+	1    6725 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Array C?
+U 1 1 588612DC
+P 6725 4175
+F 0 "C?" H 6600 4425 60  0000 C CNN
+F 1 "C_Array" H 6700 3925 60  0000 C CNN
+F 2 "" H 6725 4075 60  0001 C CNN
+F 3 "" H 6725 4075 60  0001 C CNN
+	1    6725 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3600 6350 3600
+Wire Wire Line
+	6350 3600 6350 3725
+Wire Wire Line
+	6350 3725 5850 3725
+Wire Wire Line
+	6500 3500 6275 3500
+Wire Wire Line
+	6275 3500 6275 3650
+Wire Wire Line
+	6275 3650 5850 3650
+Wire Wire Line
+	5850 3575 6200 3575
+Wire Wire Line
+	6200 3575 6200 3400
+Wire Wire Line
+	6200 3400 6500 3400
+Wire Wire Line
+	6500 3700 6425 3700
+Wire Wire Line
+	6425 3700 6425 3800
+Wire Wire Line
+	6425 3800 5850 3800
+Wire Wire Line
+	5850 3875 6425 3875
+Wire Wire Line
+	6425 3875 6425 4025
+Wire Wire Line
+	6425 4025 6500 4025
+Wire Wire Line
+	5850 3950 6350 3950
+Wire Wire Line
+	6350 3950 6350 4125
+Wire Wire Line
+	6350 4125 6500 4125
+Wire Wire Line
+	5850 4025 6275 4025
+Wire Wire Line
+	6275 4025 6275 4225
+Wire Wire Line
+	6275 4225 6500 4225
+Wire Wire Line
+	5850 4100 6200 4100
+Wire Wire Line
+	6200 4100 6200 4325
+Wire Wire Line
+	6200 4325 6500 4325
+Wire Wire Line
+	6925 3400 8075 3400
+Wire Wire Line
+	6925 3500 8075 3500
+Wire Wire Line
+	6925 3600 8075 3600
+Wire Wire Line
+	6925 3700 8075 3700
+Wire Wire Line
+	6925 4025 8075 4025
+Wire Wire Line
+	6925 4125 8075 4125
+Wire Wire Line
+	6925 4225 8075 4225
+Wire Wire Line
+	6925 4325 8075 4325
+$Comp
+L R_Array R?
+U 1 1 588622B0
+P 7150 4975
+F 0 "R?" H 7025 5225 60  0000 C CNN
+F 1 "75" H 7125 4725 60  0000 C CNN
+F 2 "" H 7150 4875 60  0001 C CNN
+F 3 "" H 7150 4875 60  0001 C CNN
+	1    7150 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Array R?
+U 1 1 58862307
+P 7750 4975
+F 0 "R?" H 7625 5225 60  0000 C CNN
+F 1 "75" H 7725 4725 60  0000 C CNN
+F 2 "" H 7750 4875 60  0001 C CNN
+F 3 "" H 7750 4875 60  0001 C CNN
+	1    7750 4975
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 588627F3
+P 6725 4625
+F 0 "C?" H 6735 4695 50  0000 L CNN
+F 1 "0.1u" H 6735 4545 50  0000 L CNN
+F 2 "" H 6725 4625 50  0000 C CNN
+F 3 "" H 6725 4625 50  0000 C CNN
+	1    6725 4625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6625 4625 6500 4625
+Wire Wire Line
+	6500 4625 6500 4775
+Wire Wire Line
+	6500 5075 6500 5325
+Wire Wire Line
+	6500 5325 7900 5325
+Wire Wire Line
+	6575 5325 6575 5375
+Wire Wire Line
+	7900 5325 7900 5175
+Connection ~ 6575 5325
+Wire Wire Line
+	7800 5175 7800 5325
+Connection ~ 7800 5325
+Wire Wire Line
+	7700 5175 7700 5325
+Connection ~ 7700 5325
+Wire Wire Line
+	7600 5175 7600 5325
+Connection ~ 7600 5325
+Wire Wire Line
+	7300 5175 7300 5325
+Connection ~ 7300 5325
+Wire Wire Line
+	7200 5175 7200 5325
+Connection ~ 7200 5325
+Wire Wire Line
+	7100 5175 7100 5325
+Connection ~ 7100 5325
+Wire Wire Line
+	7000 5175 7000 5325
+Connection ~ 7000 5325
+Wire Wire Line
+	8075 4625 6825 4625
+Wire Wire Line
+	6125 4225 6125 4625
+Wire Wire Line
+	6125 4625 6200 4625
+Wire Wire Line
+	7000 4750 7000 4325
+Connection ~ 7000 4325
+Wire Wire Line
+	7100 4750 7100 4225
+Connection ~ 7100 4225
+Wire Wire Line
+	7200 4750 7200 4125
+Connection ~ 7200 4125
+Wire Wire Line
+	7300 4750 7300 4025
+Connection ~ 7300 4025
+Wire Wire Line
+	7600 4750 7600 3700
+Connection ~ 7600 3700
+Wire Wire Line
+	7700 4750 7700 3600
+Connection ~ 7700 3600
+Wire Wire Line
+	7800 4750 7800 3500
+Connection ~ 7800 3500
+Wire Wire Line
+	7900 4750 7900 3400
+Connection ~ 7900 3400
+Text HLabel 8075 3400 2    60   Input ~ 0
+Toslink_RX7
+Text HLabel 8075 3500 2    60   Input ~ 0
+Toslink_RX6
+Text HLabel 8075 3600 2    60   Input ~ 0
+Toslink_RX5
+Text HLabel 8075 3700 2    60   Input ~ 0
+Toslink_RX4
+Text HLabel 8075 4025 2    60   Input ~ 0
+Toslink_RX3
+Text HLabel 8075 4125 2    60   Input ~ 0
+Toslink_RX2
+Text HLabel 8075 4225 2    60   Input ~ 0
+Toslink_RX1
+Text HLabel 8075 4325 2    60   Input ~ 0
+Toslink_RX0
+Text HLabel 6025 2725 2    60   BiDi ~ 0
+MasterClock
+Text HLabel 6025 3000 2    60   BiDi ~ 0
+BitClock
+Text HLabel 6025 3075 2    60   BiDi ~ 0
+LRClock
+Text HLabel 6025 3150 2    60   Output ~ 0
+DOUT
+Text HLabel 6025 3225 2    60   Input ~ 0
+DIN
+Wire Wire Line
+	6025 3000 5850 3000
+Wire Wire Line
+	5850 3075 6025 3075
+Wire Wire Line
+	6025 3150 5850 3150
+Wire Wire Line
+	5850 3225 6025 3225
+Wire Wire Line
+	6025 2725 5850 2725
+Text HLabel 3375 2450 0    60   Input ~ 0
+DVDD
+Text HLabel 3900 2450 2    60   Input ~ 0
+AVDD
+Wire Wire Line
+	3900 2450 3800 2450
+Connection ~ 3800 2450
+Wire Wire Line
+	3375 2450 3475 2450
+Connection ~ 3475 2450
+Text HLabel 3375 3025 0    60   Input ~ 0
+GND
+Connection ~ 3475 3025
+$EndSCHEMATC

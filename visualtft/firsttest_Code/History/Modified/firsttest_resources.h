@@ -1,0 +1,5 @@
+#ifndef FIRSTTEST_RESOURCES
+#define FIRSTTEST_RESOURCES
+
+
+#endif
