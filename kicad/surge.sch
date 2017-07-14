@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selfmade
+LIBS:teensy
 LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 6 16
 Title ""
 Date ""
 Rev ""
@@ -51,29 +52,11 @@ PE_I
 Text HLabel 3725 3475 0    60   Output ~ 0
 N_I
 Wire Wire Line
-	4100 3325 4300 3325
+	4100 3325 7450 3325
 Wire Wire Line
-	4300 3325 5250 3325
+	3725 3400 7450 3400
 Wire Wire Line
-	5250 3325 6550 3325
-Wire Wire Line
-	6550 3325 7450 3325
-Wire Wire Line
-	3725 3400 4475 3400
-Wire Wire Line
-	4475 3400 5625 3400
-Wire Wire Line
-	5625 3400 6750 3400
-Wire Wire Line
-	6750 3400 7450 3400
-Wire Wire Line
-	4100 3475 4650 3475
-Wire Wire Line
-	4650 3475 5875 3475
-Wire Wire Line
-	5875 3475 7000 3475
-Wire Wire Line
-	7000 3475 7450 3475
+	4100 3475 7450 3475
 Text HLabel 7450 3325 2    60   Output ~ 0
 L_O
 Text HLabel 7450 3400 2    60   Input ~ 0
@@ -111,9 +94,7 @@ Connection ~ 5250 3325
 Wire Wire Line
 	5625 3400 5625 4275
 Wire Wire Line
-	5250 4275 5625 4275
-Wire Wire Line
-	5625 4275 5875 4275
+	5250 4275 5875 4275
 Connection ~ 5625 3400
 $Comp
 L GDT F?
@@ -145,9 +126,7 @@ Wire Wire Line
 	4650 3700 4650 3475
 Connection ~ 4650 3475
 Wire Wire Line
-	4300 4200 4475 4200
-Wire Wire Line
-	4475 4200 4650 4200
+	4300 4200 4650 4200
 Wire Wire Line
 	4475 4200 4475 3400
 Connection ~ 4475 3400
@@ -201,9 +180,7 @@ F 3 "" H 7000 3925 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6550 4225 6750 4225
-Wire Wire Line
-	6750 4225 7000 4225
+	6550 4225 7000 4225
 Wire Wire Line
 	6750 4225 6750 3400
 Connection ~ 6750 3400

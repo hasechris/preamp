@@ -29,12 +29,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:selfmade
+LIBS:teensy
 LIBS:preamp-cache
 EELAYER 25 0
 EELAYER END
-$Descr A3 16535 11693
+$Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 16 16
 Title ""
 Date ""
 Rev ""
@@ -44,33 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1425 825  675  325 
-U 5882A13F
-F0 "surge" 60
-F1 "surge.sch" 60
-F2 "L_I" I L 1425 900 60 
-F3 "PE_I" O L 1425 975 60 
-F4 "N_I" O L 1425 1050 60 
-F5 "L_O" O R 2100 900 60 
-F6 "PE_O" I R 2100 975 60 
-F7 "N_O" I R 2100 1050 60 
-$EndSheet
 $Comp
-L IEC_power X?
-U 1 1 5882AB14
-P 675 1075
-F 0 "X?" H 725 1375 60  0000 C CNN
-F 1 "IEC_power" H 900 1025 60  0000 C CNN
-F 2 "" H 675 1075 60  0001 C CNN
-F 3 "" H 675 1075 60  0001 C CNN
-	1    675  1075
+L Teensy3.6 U?
+U 1 1 59638009
+P 3650 3300
+F 0 "U?" H 3650 5600 60  0000 C CNN
+F 1 "Teensy3.6" H 3650 1000 60  0000 C CNN
+F 2 "" H 3650 3300 60  0000 C CNN
+F 3 "" H 3650 3300 60  0000 C CNN
+	1    3650 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1125 900  1425 900 
-Wire Wire Line
-	1175 975  1425 975 
-Wire Wire Line
-	1175 1050 1425 1050
 $EndSCHEMATC
