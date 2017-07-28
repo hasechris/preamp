@@ -1,11 +1,11 @@
 # Updates
 
 I have added fancy pdf files with function blocks for better understanding.
-
-[Function Block for Management](visualblocks/functionblock%20management.pdf)
-[Function Block for Audio](visualblocks/functionblock%20audio.pdf)
-[Function Block for HMI](visualblocks/functionblock%20hmi.pdf)
-
+  
+[Function Block for Management](visualblocks/functionblock%20management.pdf)  
+[Function Block for Audio](visualblocks/functionblock%20audio.pdf)  
+[Function Block for HMI](visualblocks/functionblock%20hmi.pdf)  
+  
 # Pre-Amp
 pre-amp build with valves and a Raspberry Clone
 
