@@ -1,3 +1,12 @@
+# Updates
+
+I have added fancy pdf files with function blocks for better understanding.
+
+[management](visualblocks/functionblock%20management.pdf)
+
+
+
+
 # Pre-Amp
 pre-amp build with valves and a Raspberry Clone
 
