@@ -26,7 +26,7 @@ Functions the device must have:
 
 some "should haves":
 - optical SPDIF input and output
-~~- treble/bass settings done with RPi clone~~
+~~- treble/bass settings done with RPi clone~~ <br />
 - now i have a biiiiig DSP :-D
 
 Some technical decisions:
