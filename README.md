@@ -25,7 +25,7 @@ Functions the device must have:
 - Bluetooth audio sink
 
 some "should haves":
-- optical SPDIF input and output
+- optical SPDIF input and output<br>
 ~~- treble/bass settings done with RPi clone~~ <br />
 - now i have a biiiiig DSP :-D
 
